@@ -29,4 +29,4 @@ def test_sum_below_10():
     assert filter_and_sum(10,div3or5)==23
 
 def test_sum_below_1000():
-    logging.info(f'RESULT = {filter_and_sum(10000,div3or5)}')
+    logging.info(f'RESULT = {filter_and_sum(1000,div3or5)}')

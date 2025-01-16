@@ -1,18 +1,18 @@
 configfile: pytest.ini
-collected 4 items                                                              
+collected 4 items                                                                                         
 
-div3div5.py::test_filter PASSED                                          [ 25%]
+div3div5.py::test_filter PASSED                                                                     [ 25%]
 div3div5.py::test_sum_of_integers 
--------------------------------- live log call ---------------------------------
-2025-01-16 17:34:44 [   DEBUG] n=0 n*(n+1)/2=0 (div3div5.py:24)
-2025-01-16 17:34:44 [   DEBUG] n=1 n*(n+1)/2=1 (div3div5.py:24)
-2025-01-16 17:34:44 [   DEBUG] n=5 n*(n+1)/2=15 (div3div5.py:24)
-2025-01-16 17:34:44 [   DEBUG] n=10 n*(n+1)/2=55 (div3div5.py:24)
-PASSED                                                                   [ 50%]
-div3div5.py::test_sum_below_10 PASSED                                    [ 75%]
+---------------------------------------------- live log call ----------------------------------------------
+2025-01-16 17:50:42 [   DEBUG] n=0 n*(n+1)/2=0 (div3div5.py:24)
+2025-01-16 17:50:42 [   DEBUG] n=1 n*(n+1)/2=1 (div3div5.py:24)
+2025-01-16 17:50:42 [   DEBUG] n=5 n*(n+1)/2=15 (div3div5.py:24)
+2025-01-16 17:50:42 [   DEBUG] n=10 n*(n+1)/2=55 (div3div5.py:24)
+PASSED                                                                                              [ 50%]
+div3div5.py::test_sum_below_10 PASSED                                                               [ 75%]
 div3div5.py::test_sum_below_1000 
--------------------------------- live log call ---------------------------------
-2025-01-16 17:34:44 [    INFO] RESULT = 23331668 (div3div5.py:32)
-PASSED                                                                   [100%]
+---------------------------------------------- live log call ----------------------------------------------
+2025-01-16 17:50:42 [    INFO] RESULT = 233168 (div3div5.py:32)
+PASSED                                                                                              [100%]
 
-============================== 4 passed in 0.01s ===============================
+============================================ 4 passed in 0.01s ============================================
